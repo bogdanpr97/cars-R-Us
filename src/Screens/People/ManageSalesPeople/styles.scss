@@ -1,0 +1,49 @@
+.container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  .header-text {
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    margin: 2rem 0;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      * {
+        margin-bottom: 0.5rem;
+      }
+    }
+   
+  }
+
+  .seller-box {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    transition: opacity .3s ease-in-out;
+
+    span {
+      border-bottom: 1px solid black;
+    }
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}

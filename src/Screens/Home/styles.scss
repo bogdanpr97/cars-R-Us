@@ -1,0 +1,44 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .header-text {
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    margin: 2rem 0;
+  }
+
+  .category-container {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+
+    .category-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-right: 1.5rem;
+    }
+
+    .seller-name {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin-right: 1.5rem;
+    }
+  }
+
+  .remove-button {
+    padding: 10px 0;
+    background: red;
+    width: 300px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+
+}

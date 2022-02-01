@@ -1,0 +1,37 @@
+.records-page-container {
+  padding: 2rem;
+
+  .header-text {
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    margin: 2rem 0;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      * {
+        margin-bottom: 0.5rem;
+      }
+    }
+   
+  }
+
+  .error-text {
+    color: red;
+  }
+
+  .records-container {
+    .record-box {
+      margin: 1rem 0;
+    }
+  }
+}

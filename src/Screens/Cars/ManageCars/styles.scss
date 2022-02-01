@@ -1,0 +1,54 @@
+.manage-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  .header-text {
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    margin: 2rem 0;
+  }
+
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      * {
+        margin-bottom: 0.5rem;
+      }
+    }
+   
+  }
+  
+  .cars-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+
+    .car-box {
+      -webkit-user-select: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      font-size: 1.5rem;
+      border: 2px solid gray;
+      color: black;
+      text-decoration: none;
+      transition: opacity .3s ease-in-out;
+  
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+}
